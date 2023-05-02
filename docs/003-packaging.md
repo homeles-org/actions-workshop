@@ -119,7 +119,7 @@ You can see many actions related to Docker, for this lab you will use the follow
                 type=sha,event=branch,prefix=,suffix=,format=short
 
           - name: Build and Push Docker Image
-            uses: docker/build-push-action@v2
+            uses: docker/build-push-action@v4
             with:
               push: true
               tags: ${{ steps.meta.outputs.tags }}
