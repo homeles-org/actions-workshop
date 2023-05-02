@@ -73,7 +73,7 @@ Let's use this example to quickly examine the notations of an Action reference:
 
 - `actions/` references the owner of the action - which translates to a user or organization on GitHub
 - `setup-node` references the name of the action - which translates to a repository on GitHub
-- `@v2` is the version of the action - which translates to a git tag or general reference (a branch or even a commit-sha) on the repository
+- `@v3` is the version of the action - which translates to a git tag or general reference (a branch or even a commit-sha) on the repository
 
 This makes it very easy to navigate to the source code of any action by simply appending the `owner` and `name` to github.com, like <https://github.com/{owner}/{name>}. For the example above, this would be <https://github.com/actions/setup-node>.
 
