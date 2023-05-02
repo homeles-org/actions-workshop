@@ -1,4 +1,6 @@
-<!-- Adding Comments -->
+/**
+  * Creates an instance of documenter.
+*/
 import React from "react";
 import { createRoot } from "react-dom/client";
 import { App } from "./App";
